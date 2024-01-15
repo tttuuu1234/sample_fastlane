@@ -1,3 +1,4 @@
+# AppfileもRubyのdotenvを使用できる。
 require 'dotenv'
 Dotenv.load
 
