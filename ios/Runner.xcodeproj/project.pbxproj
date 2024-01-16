@@ -370,6 +370,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "jp.co.sample.fastlane$(appIdSuffix)";
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = jp.co.sample.fastlane.dev;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "dev sample fastlane";
@@ -550,6 +551,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "jp.co.sample.fastlane$(appIdSuffix)";
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = jp.co.sample.fastlane.dev;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "dev sample fastlane";

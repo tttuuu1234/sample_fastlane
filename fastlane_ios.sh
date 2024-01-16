@@ -10,7 +10,7 @@ elif [ "$1" = "prod" ]; then
   echo "prodだよ"
   flutter build ipa --release --export-options-plist=ios/ExportOptions.plist --dart-define-from-file=dart_defines/prod.json
   cd ios
-  fastlane upload_dev_testflight --env prod
+  fastlane upload_testflight --env prod
   cd ../
 else
   echo "エラー"
