@@ -1,4 +1,0 @@
-build_appはアプリをビルドするためのものだが、flutterの場合は環境切り替えとかでdart_defineを設定するので、最初にbuild ipa コマンドでビルドしてから
-作成されたipaファイルのパスを指定してpilotで配布する
-つまりbuild_appは不要
-ExportOptionsを使用すればプロビジョニングプロファイルをxcodeで環境ごとの設定切り替えなくてもいけるんじゃない！！？
