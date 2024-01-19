@@ -1,3 +1,5 @@
+import 'dart:io';
+
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
@@ -51,8 +53,9 @@ class _MyHomePageState extends State<MyHomePage> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            const Text('flavor: $flavor'),
-            const Text('release build: $kReleaseMode'),
+            Text('OS: ${Platform.operatingSystem}'),
+            const Text('Flavor: $flavor'),
+            const Text('Release build: $kReleaseMode'),
             const Text(
               'You have pushed the button this many times:',
             ),
